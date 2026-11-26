@@ -1,0 +1,23 @@
+{
+ "selu": {
+  "params": 217354,
+  "val_pass_s_mean": 0.032170559599035184,
+  "val_pass_s_std": 0.007006635395746346,
+  "per_batch_ms": 2.010659974939699,
+  "images_per_s": 62168.641917561836
+ },
+ "elu": {
+  "params": 217354,
+  "val_pass_s_mean": 0.03731328820140334,
+  "val_pass_s_std": 0.000566791924284407,
+  "per_batch_ms": 2.3320805125877087,
+  "images_per_s": 53600.20776525347
+ },
+ "peak_rss_mb": 716.65625,
+ "hardware": {
+  "processor": "x86_64",
+  "logical_cpus": 20,
+  "torch_threads": 14,
+  "torch": "2.15.0+cpu"
+ }
+}
